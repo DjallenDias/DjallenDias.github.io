@@ -1,0 +1,29 @@
+a {
+  color: #808080;
+  text-decoration: none;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: fit-content;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+p {
+  margin: 0;
+}
+
+#infos footer {
+  position: relative;
+  font-size: 12px;
+  top: 250px;
+}
+
+#infos p {
+  padding-left: 10px;
+}

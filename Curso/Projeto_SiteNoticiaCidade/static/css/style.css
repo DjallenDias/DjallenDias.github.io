@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background: #fff url("../images/fundo.png") repeat-x;
+}
+/* Inicio Container */
+/* Inicio Header */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+div#container {
+  width: 750px;
+  margin: 0 auto;
+}
+
+div#topo {
+  height: 150px;
+  background: url("../images/detalhe-topo.png") no-repeat right top;
+  padding-top: 25px;
+  margin-right: -20px;
+}
+
+.logo {
+  width: 152px;
+  height: 66px;
+  background: url("../images/logo.png");
+  text-indent: -99999px;
+}
+
+/* Inicio Menu */
+#topo ul#nav {
+  margin-top: 30px;
+  background: #b10333;
+  float: left;
+}
+
+#topo ul#nav li {
+  float: left;
+}
+
+#topo ul#nav li a {
+  font-size: 0.9em;
+  display: block;
+  padding: 0.5em 1.5em;
+  line-height: 2.1em;
+  text-decoration: none;
+  color: #fff;
+  background: url("../images/divisor.png") no-repeat left;
+}
+
+#topo ul#nav li a:hover {
+  color: #69001d;
+}
+
+body.home ul#nav a#home,
+body.brasil ul#nav a#brasil,
+body.internacional ul#nav a#internacional,
+body.economia ul#nav a#economia,
+body.saude ul#nav a#saude,
+body.ciencias ul#nav a#ciencias,
+body.fotos ul#nav a#fotos {
+  color: #fff;
+  background: #de003d;
+}
+
+body.home ul#nav a#home:hover,
+body.brasil ul#nav a#brasil:hover,
+body.internacional ul#nav a#internacional:hover,
+body.economia ul#nav a#economia:hover,
+body.saude ul#nav a#saude:hover,
+body.ciencias ul#nav a#ciencias:hover,
+body.fotos ul#nav a#fotos:hover {
+  color: #69001d;
+  background: #b10333;
+}
+/* Fim Menu */
+/* Fim Header */
+/* Inicio Conteúdo */
+div#conteudo {
+  margin-top: 60px;
+  background: #f5f5f5;
+}
+
+div#conteudo div#lateral {
+  width: 180px;
+  float: left;
+  margin: 0 0 20px -750px;
+}
+
+div#conteudo div#primario {
+  width: 270px;
+  float: left;
+  margin: 0 0 20px 195px;
+}
+
+body#duas-colunas div#conteudo div#primario {
+  width: 555px;
+}
+
+body#uma-coluna div#conteudo div#primario {
+  width: 750px;
+  margin: 0 0 20px 0;
+}
+
+div#conteudo div#secundario {
+  width: 270px;
+  float: left;
+  margin: 0 0 20px 15px;
+}
+
+/* Inicio Imagens*/
+
+img.img-principal {
+  width: 98%;
+  border: 3px solid #dfdfdf;
+}
+
+/* Fim Imagens */
+
+/* Inicio Cabeçalhos*/
+
+h3 {
+  text-transform: uppercase;
+  display: inline;
+  font-size: 0.8em;
+  padding: 3px;
+}
+
+.destaque h3 {
+  background: #b10333;
+  color: #fff;
+}
+
+.entrevista h3 {
+  background: #de003e;
+}
+/* Fim Cabeçalhos*/
+
+/* Inicio Lista de noticias*/
+#lista-noticias li {
+  padding: 2px;
+  border-bottom: 1px solid #ccc;
+  height: 62px;
+}
+
+#lista-noticias li a img {
+  float: left;
+  margin: 5px;
+}
+
+#lista-noticias li a {
+  text-decoration: none;
+}
+
+#lista-noticias li a h3 {
+  padding: 0;
+  font-size: 0.8em;
+  color: #3e7ab9;
+}
+
+#lista-noticias li a p {
+  font-size: 0.7em;
+}
+
+#lista-noticias li:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+/* Fim Lista de noticias*/
+
+div.caixa {
+  margin: 10px 0;
+  padding: 5px 0 5px 0;
+  background: #f3f3f3 url("../images/fundo-caixa.png");
+}
+div.caixa h2 {
+  font-size: 1em;
+  background: #294c71;
+  color: #fff;
+  padding: 5px;
+}
+
+div.caixa div.caixa-conteudo {
+  background: #fff;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+#lateral ul#entrevistas a {
+  font-size: 0.9em;
+  padding: 3px;
+  display: block;
+  line-height: 30px;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul#entrevistas a:hover {
+  background: #f9f9f9 url("../images/marcador.png") no-repeat left center;
+  color: #a1a1a1;
+  padding-left: 20px;
+}
+
+#lateral form#news-form label {
+  display: block;
+  cursor: pointer;
+}
+
+#lateral form#news-form input {
+  font-size: 0.9em;
+  background-color: #fff;
+  padding: 5px;
+  width: 125px;
+}
+
+#lateral form#news-form input.submit {
+  width: 80px;
+  color: #fff;
+  background-color: #b10333;
+  border: 2px solid #870529;
+}
+
+/* Fim Conteúdo */
+/* Fim Container */
+
+/* Inicio Container-Rodape */
+div#container-rodape {
+  background: #294c71;
+  padding: 20px;
+  clear: both;
+}
+
+div#container-rodape div#rodape {
+  width: 750px;
+  margin: 0 auto;
+  color: #fff;
+}
+/* Fim Container-Rodape */
