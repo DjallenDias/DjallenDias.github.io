@@ -11,7 +11,11 @@
 
 <body>
   <header id="topo">
-    <img src="static/img/topoalterado.jpeg" alt="">
+    <input type="checkbox" id="check" class="menu">
+    <label for="check" id="menubar">
+      <img src="static/img/svg/menu-icon.svg">
+    </label>
+    <img src="static/img/jpeg/topoalterado.jpeg" alt="">
     <div id="nav-bar">
       <ul id="nav-bar-links">
         <li>
@@ -32,28 +36,34 @@
 
       </ul>
     </div>
-
-    <div id="menu">
-      <input type="checkbox" id="check">
-      <label for="check">
-        <img src="static/img/menu-icon.svg">
-      </label>
-    </div>
   </header>
 
   <div class="conteudo">
     <div id="nos">
-      Foto
-      Quem somos
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias voluptates saepe quae esse, nesciunt ad aspernatur? Quisquam, laudantium voluptate, perspiciatis aspernatur fugiat consectetur culpa dolorem recusandae ea tenetur eum ut?
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias voluptates saepe quae esse, nesciunt ad aspernatur? Quisquam, laudantium voluptate, perspiciatis aspernatur fugiat consectetur culpa dolorem recusandae ea tenetur eum ut?
+      <img id="logo" src="static/img/jpeg/logo.jpeg">
+      <div class="nos-cont">
+        <h3>Quem somos?</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias voluptates saepe quae esse, nesciunt ad aspernatur? Quisquam, laudantium voluptate, perspiciatis aspernatur fugiat consectetur culpa dolorem recusandae ea tenetur eum ut?
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias voluptates saepe quae esse, nesciunt ad aspernatur? Quisquam, laudantium voluptate, perspiciatis aspernatur fugiat consectetur culpa dolorem recusandae ea tenetur eum ut?
+        </p>
+      </div>
     </div>
     <div id="contato">
       Endereço e contato
       Rua, Casa, Num
-      Whatsapp
-      Instagram
-      Gmail
+      <div class="contato-infos">
+        <img src="static/img/svg/whatsapp-icon.svg">
+        <p>(83) +55 98002-8922</p>
+      </div>
+      <div class="contato-infos">
+        <img src="static/img/svg/instagram-icon.svg">
+        <p>@coffeecayd</p>
+      </div>
+      <div class="contato-infos">
+        <img src="static/img/svg/gmail-icon.svg">
+        <p>coffeecayd@gmail.com</p>
+      </div>
     </div>
   </div>
 
