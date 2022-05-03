@@ -110,6 +110,13 @@ img {
   margin-right: 5px;
 }
 
+/* Link Save */
+
+body#sobre a#sobre {
+  color: #77544c;
+  border-color: #77544c;
+}
+
 /* Media Query */
 @media only screen and (max-width: 768px) {
   .conteudo {
@@ -142,12 +149,13 @@ img {
   }
 
   #topo input[type="checkbox"]:checked ~ #nav-bar {
-    display: block;
-    position: absolute;
+    display: inline-block;
+    position: fixed;
     z-index: 1;
     text-align: end;
+    border-radius: 0 0 0 6px;
     right: 0;
-    top: 69px;
+    margin-top: -4px;
   }
 
   #topo input[type="checkbox"]:checked ~ #nav-bar #nav-bar-links li,
