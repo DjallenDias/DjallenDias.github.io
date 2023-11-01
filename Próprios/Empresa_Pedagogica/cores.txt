@@ -1,6 +1,0 @@
-Preto (deve ser alterado para algum tom cinza): #000 
-Terroso escuro: #b78278
-Terroso claro: #daa994
-Bege: #f7e4cd
-Rosa claro: #fbcec0
-Branco: #fff
