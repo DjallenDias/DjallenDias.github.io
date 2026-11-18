@@ -1,0 +1,13 @@
+name = "Create E Companhia"
+author = "DjDeusszx"
+version = "1.1.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "dcdafba42a21d51ccd844438e1fbc24226e993489dfbb6fcc7783e32930466ce"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.266"
